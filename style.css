@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+body {
+       font-family: Arial, Helvetica, sans-serif;
+       color: #fff;
+       background: #000;
+       overflow: hidden;
+}
+
+.showcase {
+       display: flex;
+       flex-direction: column;
+       background: url(./image/pexels-zhanqun-cai-1507025-3998467.jpg) no-repeat center center/cover;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+}
+.showcase p{
+       padding: 0  50px;
+       color: #ffffff;
+       width: 75%;
+       font-size: 18px;
+       font-weight: 700;
+}
+
+.animated {
+       font-family: 'charm', 'sans-sarif';
+       font-size: 6rem;
+       margin: 0;
+       padding: 0;
+       background: url(./image/text-bg.png) no-repeat center center/cover;
+       -webkit-background-clip: text;
+       color: transparent;
+       animation: moveBg 90s linear infinite;
+       -webkit-animation: moveBg 90s linear infinite;
+}
+@keyframes moveBg{
+       0%{
+           background-position:  0% 30%;
+       }
+       100%{
+              background-position:100% 50%;
+       }
+}
